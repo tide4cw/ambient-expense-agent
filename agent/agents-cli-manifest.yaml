@@ -1,0 +1,15 @@
+name: ambient-expense-agent
+acli_version: 1.9.0
+agent_directory: app
+region: us-east1
+base_template: adk
+generated_at: '2026-10-06T20:38:21.846193+00:00'
+language: python
+framework: google-adk
+create_params:
+  root_agent_name: ambient_expense_agent
+  deployment_target: agent_runtime
+  cicd_runner: google_cloud_build
+  is_a2a: true
+  agent_gateway: false
+  agent_guidance_filename: GEMINI.md

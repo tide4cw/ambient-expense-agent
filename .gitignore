@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv*/
+env/
+venv/
+
+# Environment variables & secrets
+.env
+*.pem
+*-key.json
+credentials*.json
+
+# ADK and Agent CLI local state
+.adk/
+.google-agents-cli/
+deployment_metadata.json.lock
+.persist_vector_store
+.saved_chats
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.tox/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
